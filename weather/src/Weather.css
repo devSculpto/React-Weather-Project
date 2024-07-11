@@ -1,0 +1,100 @@
+.weather-box {
+    width: 380px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    background-color: #414db1;
+}
+h1,h4,h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-weight: 600;
+}
+h2 {
+    font-weight: 500;
+}
+.search-box {
+    box-sizing: border-box;
+}
+.info-box {
+  padding: 20px;
+}
+input, button {
+    border: none;
+    height: 50px;
+
+}
+input {
+    
+    border-radius: 25px;
+    width: 210px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+button {
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    width: 53px;
+}
+button i {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.left div span, .right div span {
+    font-size: 30px;
+
+}
+form {
+    color: black;
+    background: rgba(255,255,255,0.1);
+    /* background-color: rgb(64, 64, 178); */
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+img {
+    height: 35px;
+    width: 35px;
+}
+.weatherIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px 20px 10px;
+}
+#weatherIcon {
+    height: 100px;
+    width: 100px;
+
+}
+.weatherData {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.weatherData .left,.weatherData .right {
+ display: flex;
+ align-items: flex-start;  
+ gap: 12px;
+ font-size: 15px;
+}
+p {
+    margin: 5px;
+    font-size: 25px;
+}
+.weatherData .left {
+    margin-right: 15px;
+}
+.weatherData .right {
+    margin-left: 15px;
+}
