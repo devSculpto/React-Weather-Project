@@ -13,7 +13,7 @@ export default function Weather() {
         name: "Mumbai"
     });
     const [error, setError] = useState(null);
-    const API_KEY = "151d64febf3cef953871a4d7d8c9b665";
+    const API_KEY = "de1a7baca8f785fe3256cf04bac66512";
     const API_URL = "https://api.openweathermap.org/data/2.5/weather";
 
     const extractInfo = async (e) => {
