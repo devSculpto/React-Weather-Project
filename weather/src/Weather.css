@@ -1,11 +1,13 @@
-.weather-box {
+body {
+    background-color: rgb(215, 215, 215);
+}.weather-box {
     width: 380px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 25px;
-    background-color: #414db1;
+    background-color: #0000;
 }
 h1,h4,h2 {
     display: flex;
@@ -55,7 +57,9 @@ button i {
 }
 form {
     color: black;
+    color: white;
     background: rgba(255,255,255,0.1);
+    background: #16325B;
     /* background-color: rgb(64, 64, 178); */
     backdrop-filter: blur(30px);
     border-radius: 10px;
